@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0a0a0a;
+  color: #f0f0f0;
+  font-family: system-ui, sans-serif;
+}
+
+.placeholder {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.placeholder h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.placeholder p {
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.placeholder a {
+  color: #a78bfa;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.placeholder a:hover {
+  text-decoration: underline;
+}
