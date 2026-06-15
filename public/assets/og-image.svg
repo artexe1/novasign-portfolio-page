@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0A0A0B"/>
+
+  <!-- faint grid -->
+  <g stroke="#ffffff" stroke-width="1" opacity="0.04">
+    <line x1="0" y1="158" x2="1200" y2="158"/>
+    <line x1="0" y1="316" x2="1200" y2="316"/>
+    <line x1="0" y1="474" x2="1200" y2="474"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+
+  <!-- accent sparkle, top-right -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#57C7EA"/>
+      <stop offset="100%" stop-color="#2A4D74"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#57C7EA" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#57C7EA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="1000" cy="180" r="150" fill="url(#glow)"/>
+  <path d="M1000 80 Q1014 168 1100 180 Q1014 192 1000 280 Q986 192 900 180 Q986 168 1000 80 Z" fill="url(#g)"/>
+  <path d="M1095 95 Q1100 120 1125 125 Q1100 130 1095 155 Q1090 130 1065 125 Q1090 120 1095 95 Z" fill="#57C7EA"/>
+
+  <!-- eyebrow -->
+  <text x="90" y="250" font-family="'IBM Plex Mono', monospace" font-size="22" letter-spacing="6" fill="#57C7EA">PORTFOLIO  /  FOR  NOVASIGN</text>
+
+  <!-- name -->
+  <text x="86" y="360" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-4" fill="#FFFFFF">Elizaveta</text>
+  <text x="86" y="460" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-4" fill="#FFFFFF">Zezyulya</text>
+
+  <!-- role -->
+  <text x="90" y="540" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="500" fill="#9AA0A6">Science Communication &amp; Content  ·  Biotech / Life Sciences</text>
+</svg>
